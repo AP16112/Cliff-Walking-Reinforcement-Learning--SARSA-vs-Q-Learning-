@@ -111,22 +111,6 @@ Cells between start and goal
 ├── README.md
 ```
 
-## Q-Learning Training Phase Video
-
-Below is a video showcasing the Q-Learning training phase (reward accumulation, policy evolution, and episode performance curves).
-
-<video controls width="640">
-  <source src="Qlearning_training.mp4" type="video/mp4">
-  Your browser does not support HTML5 video. Alternatively, [click here to open the video](Qlearning_training.mp4).
-</video>
-
-
-## Working Demo Image
-
-![CliffWalking Working Demo](cliffwalking_demo.png)
-
-> Screenshot of the trained agent navigating the Cliff Walking environment (working code execution view).
-
 ## Conclusion
 
 This project demonstrates how different reinforcement learning strategies influence agent behavior. While Q-Learning finds optimal paths faster, SARSA prioritizes safety, making it more suitable for environments with high risk.
